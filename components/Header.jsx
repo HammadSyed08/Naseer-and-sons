@@ -18,7 +18,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
         <Link href="/" className="text-2xl font-extrabold tracking-tight">
           <span className="text-slate-900">Naseer</span> 
-          <span className="text-blue-600 ml-2">&</span>
+          <span className="text-blue-900 ml-2">&</span>
           <span className="text-slate-900"> Sons</span>
         </Link>
 
