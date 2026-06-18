@@ -51,7 +51,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
             {features.map((item, idx) => (
               <div key={idx} className="flex flex-col items-center text-center p-8 bg-stone-50 rounded-2xl hover:bg-stone-100 transition-colors">
-                <div className="mb-5 p-4 bg-white rounded-full shadow-sm">{item.icon}</div>
+                <div className="mb-5 p-4  rounded-full bg-blue-900 shadow-sm">{item.icon}</div>
                 <h3 className="text-xl font-bold text-slate-800 mb-3">{item.title}</h3>
                 <p className="text-slate-600 leading-relaxed">{item.desc}</p>
               </div>
