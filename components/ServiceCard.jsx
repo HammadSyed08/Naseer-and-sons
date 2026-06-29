@@ -11,7 +11,7 @@ export default function ServiceCard({ service }) {
       <p className="text-slate-600 mb-6 flex-grow leading-relaxed">{service.description}</p>
       <Link
         href="/contact"
-        className="text-brand-700 font-semibold hover:text-brand-900 inline-flex items-center gap-1 transition-colors"
+        className="text-brand-700 font-semibold text-black hover:text-brand-900 inline-flex items-center gap-1 transition-colors"
       >
         Book Now
         <span className="text-lg leading-none">→</span>

@@ -1,4 +1,4 @@
-import { Zap, Wrench, Paintbrush, Grid3X3 } from 'lucide-react'
+import { Zap, Wrench, Paintbrush, Grid3X3, TowelRack } from 'lucide-react'
 
 // Add or remove services here. Each must have an id, title, description, and a Lucide icon component.
 export const services = [
@@ -25,5 +25,11 @@ export const services = [
     title: 'Tile Fixture',
     description: 'Floor and wall tile installation, marble work, and grouting. Perfect finishes guaranteed.',
     icon: Grid3X3,
+  },
+  {
+    id: 'welder',
+    title: 'Welder',
+    description: 'Metal fabrication, repair, and welding services. Strong and durable connections guaranteed.',
+    icon: TowelRack,
   },
 ]
